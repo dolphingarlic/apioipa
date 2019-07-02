@@ -3,7 +3,7 @@ from .models import Problem, Source
 
 
 class ProblemAdmin(admin.ModelAdmin):
-    list_display = ('abbreviation', 'name', 'source', 'from_year')
+    list_display = ('abbreviation', 'name', 'source', 'url', 'from_year')
 
 
 admin.site.register(Problem, ProblemAdmin)
