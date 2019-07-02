@@ -10,11 +10,10 @@ class Source(models.Model):
 
 
 class Problem(models.Model):
-    abbreviation = models.CharField(max_length=100, primary_key=True)
     name = models.CharField(max_length=100)
     source = models.ForeignKey(Source, on_delete=models.SET_NULL, null=True)
     url = models.URLField(default='https://oj.uz/')
     from_year = models.IntegerField()
 
     def __str__(self):
-        return self.abbreviation
+        return f'{self.source.abbreviation} {self.from_year} - {self.name}'

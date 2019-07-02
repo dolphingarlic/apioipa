@@ -20,6 +20,7 @@ from problems import views
 
 router = routers.DefaultRouter()
 router.register(r'problems', views.ProblemView, 'problem')
+router.register(r'sources', views.SourceView, 'source')
 
 urlpatterns = [
     path('admin/', admin.site.urls),

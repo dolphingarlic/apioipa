@@ -3,3 +3,5 @@ venv
 staticfiles
 .env
 .vscode
+db.sqlite3
+migrations/

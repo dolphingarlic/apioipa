@@ -1,17 +1,23 @@
 from django.shortcuts import render
 from django.http import JsonResponse
 from rest_framework import viewsets
-from .serializers import ProblemSerializer
+from .serializers import ProblemSerializer, SourceSerializer
 import dialogflow_v2 as dialogflow
 import json
 
-from .models import Problem
+from .models import Problem, Source
 
 from random import choices
 
 class ProblemView(viewsets.ModelViewSet):
     serializer_class = ProblemSerializer
     queryset = Problem.objects.all()
+
+
+class SourceView(viewsets.ModelViewSet):
+    serializer_class = SourceSerializer
+    queryset = Source.objects.all()
+
 
 def webhook(request):
     data = json.loads(request.body)
@@ -26,7 +32,7 @@ def webhook(request):
     return JsonResponse(
         {
             'speech': 'Yeet',
-            'displayText': problem.abbreviation,
+            'displayText': problem.url,
             'source': 'cloudServiceMonitor',
         }
     )

@@ -1,7 +1,13 @@
 from rest_framework import serializers
-from .models import Problem
+from .models import Problem, Source
 
 class ProblemSerializer(serializers.ModelSerializer):
     class Meta:
         model = Problem
-        fields = ('abbreviation', 'name', 'source', 'url', 'from_year')
+        fields = ('name', 'source', 'url', 'from_year')
+
+
+class SourceSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Source
+        fields = ('abbreviation', 'name')
