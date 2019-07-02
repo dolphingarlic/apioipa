@@ -1,7 +1,8 @@
 venv
 *.pyc
+__pycache__
 staticfiles
 .env
 .vscode
 db.sqlite3
-migrations/
+migrations

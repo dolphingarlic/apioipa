@@ -9,6 +9,7 @@ from .models import Problem, Source
 
 from random import choices
 
+
 class ProblemView(viewsets.ModelViewSet):
     serializer_class = ProblemSerializer
     queryset = Problem.objects.all()
@@ -24,15 +25,18 @@ def webhook(request):
     # Parse source list
     sources = data['queryResult']['parameters']['source']
     # Parse date
-    start_date = int(data['queryResult']['parameters']['dste-period']['startDate'][:4])
-    end_date = int(data['queryResult']['parameters']['dste-period']['endDate'][:4])
+    start_date = int(data['queryResult']['parameters']
+                     ['date-period']['startDate'][:4])
+    end_date = int(data['queryResult']['parameters']
+                   ['date-period']['endDate'][:4])
 
-    problem = choices(Problem.objects.filter(source__abbreviation__in=sources).filter(from_year__range=(start_date, end_date)))
+    problem = choices(Problem.objects.filter(source__abbreviation__in=sources).filter(
+        from_year__range=(start_date, end_date)))
 
     return JsonResponse(
         {
             'speech': 'Yeet',
-            'displayText': problem.url,
+            'displayText': problem,
             'source': 'cloudServiceMonitor',
         }
     )
