@@ -13,8 +13,8 @@ class Problem(models.Model):
     id = models.CharField(max_length=100, primary_key=True)
     name = models.CharField(max_length=100)
     source = models.ForeignKey(Source, on_delete=models.SET_NULL, null=True)
-    url = models.URLField()
-    from_year = models.IntegerField()
+    url = models.URLField(default='')
+    from_year = models.IntegerField(default=2002)
 
     def __str__(self):
         return self.id
