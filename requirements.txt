@@ -2,3 +2,4 @@ django
 dialogflow
 djangorestframework
 django-cors-headers
+django-heroku
