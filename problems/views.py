@@ -21,7 +21,7 @@ def webhook(request):
     start_date = int(data['queryResult']['parameters']['dste-period']['startDate'][:4])
     end_date = int(data['queryResult']['parameters']['dste-period']['endDate'][:4])
 
-    problem = choices(Problem.objects.filter(source__abbreviation__in=sources).filter(year__range=(start_date, end_date)))
+    problem = choices(Problem.objects.filter(source__abbreviation__in=sources).filter(from_year__range=(start_date, end_date)))
 
     return JsonResponse(
         {

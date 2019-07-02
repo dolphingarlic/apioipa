@@ -14,7 +14,7 @@ class Problem(models.Model):
     name = models.CharField(max_length=100)
     source = models.ForeignKey(Source, on_delete=models.SET_NULL, null=True)
     url = models.URLField()
-    year = models.IntegerField()
+    from_year = models.IntegerField()
 
     def __str__(self):
         return self.id
