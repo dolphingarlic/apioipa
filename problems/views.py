@@ -26,7 +26,7 @@ def webhook(request):
     return JsonResponse(
         {
             'speech': 'Yeet',
-            'displayText': problem.id,
+            'displayText': problem.abbreviation,
             'source': 'cloudServiceMonitor',
         }
     )
