@@ -1,2 +1,4 @@
 django
 dialogflow
+djangorestframework
+django-cors-headers
