@@ -12,7 +12,7 @@ class Source(models.Model):
 class Problem(models.Model):
     name = models.CharField(max_length=100)
     source = models.ForeignKey(Source, on_delete=models.SET_NULL, null=True)
-    url = models.URLField(default='https://oj.uz/')
+    url = models.CharField(max_length=100, default='https://oj.uz/')
     from_year = models.IntegerField()
 
     def __str__(self):
