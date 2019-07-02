@@ -14,7 +14,7 @@ class Problem(models.Model):
     name = models.CharField(max_length=100)
     source = models.ForeignKey(Source, on_delete=models.SET_NULL, null=True)
     url = models.URLField(default='https://oj.uz/')
-    from_year = models.IntegerField(default=2002)
+    from_year = models.IntegerField()
 
     def __str__(self):
         return self.abbreviation
