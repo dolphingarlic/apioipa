@@ -1,1 +1,1 @@
-web: gunicorn cp-bot-webhook.wsgi --log-file -
+web: gunicorn cp-bot.wsgi --log-file -
