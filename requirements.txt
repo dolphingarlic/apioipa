@@ -1,6 +1,7 @@
 django
 dialogflow
-djangorestframework
-django-cors-headers
 django-heroku
 gunicorn
+psycopg2
+pytz
+whitenoise
