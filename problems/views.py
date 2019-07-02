@@ -1,6 +1,4 @@
 from django.shortcuts import render
-from rest_framework import viewsets
-from .serializers import ProblemSerializer
 from django.http import JsonResponse
 import dialogflow_v2 as dialogflow
 import json
@@ -8,11 +6,6 @@ import json
 from .models import Problem
 
 from random import choices
-
-class ProblemView(viewsets.ModelViewSet):
-    serializer_class = ProblemSerializer
-    queryset = Problem.objects.all()
-
 
 def webhook(request):
     data = json.loads(request.body)
