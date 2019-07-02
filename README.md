@@ -1,1 +1,1 @@
-"# cp_bot" 
+# cp_bot

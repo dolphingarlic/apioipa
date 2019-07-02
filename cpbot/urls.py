@@ -24,4 +24,5 @@ router.register(r'problems', views.ProblemView, 'problems')
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
+    path('webhook/', views.webhook, name='webhook'),
 ]

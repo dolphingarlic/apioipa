@@ -3,6 +3,7 @@ from rest_framework import viewsets
 from .serializers import ProblemSerializer
 from django.http import JsonResponse
 import dialogflow_v2 as dialogflow
+import json
 
 from .models import Problem
 
@@ -14,15 +15,19 @@ class ProblemView(viewsets.ModelViewSet):
 
 
 def webhook(request):
+    data = json.loads(request.body)
     # Parse source list
-    sources = request.POST.get()
+    sources = data['queryResult']['parameters']['source']
     # Parse date
-    start_date = 0
-    end_date = 100000
+    start_date = int(data['queryResult']['parameters']['dste-period']['startDate'][:4])
+    end_date = int(data['queryResult']['parameters']['dste-period']['endDate'][:4])
 
     problem = choices(Problem.objects.filter(source__abbreviation__in=sources).filter(year__range=(start_date, end_date)))
 
     return JsonResponse(
         {
+            'speech': 'Yeet',
+            'displayText': problem.id,
+            'source': 'cloudServiceMonitor',
         }
     )
