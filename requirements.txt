@@ -1,7 +1,7 @@
 Django==2.2.2
 dialogflow==0.6.0
 django-heroku
-gunicorn==19.7.1
+gunicorn==19.9.0
 django-cors-headers==3.0.2
 djangorestframework==3.9.4
 psycopg2==2.7.3.2
