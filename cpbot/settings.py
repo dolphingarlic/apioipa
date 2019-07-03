@@ -31,6 +31,7 @@ ALLOWED_HOSTS = [
     'cp-bot-webhook.herokuapp.com',
     'localhost',
     '127.0.0.1',
+    'http://2b9a0283.ngrok.io',
 ]
 
 

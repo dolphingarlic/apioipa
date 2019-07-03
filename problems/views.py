@@ -23,14 +23,31 @@ class SourceView(viewsets.ModelViewSet):
 def webhook(request):
     data = loads(request.body.decode('ascii'))
     sources = data['queryResult']['parameters']['source']
-    start_date = int(data['queryResult']['parameters']['date-period']['startDate'][:4])
-    end_date = int(data['queryResult']['parameters']['date-period']['endDate'][:4])
+    start_date = int(data['queryResult']['parameters']
+                     ['date-period']['startDate'][:4])
+    end_date = int(data['queryResult']['parameters']
+                   ['date-period']['endDate'][:4])
 
     problem = choices(Problem.objects.filter(
-        source__abbreviation__in=sources, from_year__range=[start_date, end_date]))
+        source__abbreviation__in=sources, from_year__range=[start_date, end_date]))[0]
 
     return JsonResponse(
         {
-            'fulfillmentText': f'{problem[0]}: {problem[0].url}',
+            'fulfillmentText': str(problem),
+            'fulfillmentMessages': [
+                {
+                    'card': {
+                        'title': problem.name,
+                        'subtitle': f'{problem.source.abbreviation} {problem.from_year}',
+                        'imageUri': 'https://upload.wikimedia.org/wikipedia/commons/3/34/IOI_logo.png',
+                        'buttons': [
+                            {
+                                'text': 'Open in your browser',
+                                'postback': problem.url
+                            }
+                        ]
+                    }
+                }
+            ],
         }
     )
