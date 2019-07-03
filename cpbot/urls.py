@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
+from django.views.decorators.csrf import csrf_exempt
 from problems import views
 
 router = routers.DefaultRouter()
@@ -25,5 +26,5 @@ router.register(r'sources', views.SourceView, 'source')
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(router.urls)),
-    path('webhook/', views.webhook, name='webhook'),
+    path('webhook/', csrf_exempt(views.webhook), name='webhook'),
 ]
