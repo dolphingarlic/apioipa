@@ -3,10 +3,10 @@ from django.http import JsonResponse
 from rest_framework import viewsets
 from .serializers import ProblemSerializer, SourceSerializer
 import dialogflow_v2 as dialogflow
-import json
 
 from .models import Problem, Source
 
+from json import loads
 from random import choices
 
 
@@ -21,22 +21,18 @@ class SourceView(viewsets.ModelViewSet):
 
 
 def webhook(request):
-    data = json.loads(request.body)
-    # Parse source list
+    data = loads(request.body.decode('ascii'))
     sources = data['queryResult']['parameters']['source']
-    # Parse date
-    start_date = int(data['queryResult']['parameters']
-                     ['date-period']['startDate'][:4])
-    end_date = int(data['queryResult']['parameters']
-                   ['date-period']['endDate'][:4])
+    start_date = int(data['queryResult']['parameters']['date-period']['startDate'][:4])
+    end_date = int(data['queryResult']['parameters']['date-period']['endDate'][:4])
 
-    problem = choices(Problem.objects.filter(source__abbreviation__in=sources).filter(
-        from_year__range=(start_date, end_date)))
+    problem = choices(Problem.objects.filter(
+        source__abbreviation__in=sources, from_year__range=[start_date, end_date]))
 
     return JsonResponse(
         {
-            'speech': 'Yeet',
-            'displayText': problem,
+            'speech': 'Here is your problem',
+            'displayText': f'{problem[0]}: {problem[0].url}',
             'source': 'cloudServiceMonitor',
         }
     )
