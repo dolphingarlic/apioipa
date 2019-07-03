@@ -31,8 +31,6 @@ def webhook(request):
 
     return JsonResponse(
         {
-            'speech': 'Here is your problem',
-            'displayText': f'{problem[0]}: {problem[0].url}',
-            'source': 'cloudServiceMonitor',
+            'fulfillmentText': f'{problem[0]}: {problem[0].url}',
         }
     )
