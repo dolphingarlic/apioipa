@@ -1,9 +1,9 @@
 from django.shortcuts import render
 from django.http import JsonResponse
 from rest_framework import viewsets
-from .serializers import ProblemSerializer, SourceSerializer
 import dialogflow_v2 as dialogflow
 
+from .serializers import ProblemSerializer, SourceSerializer
 from .models import Problem, Source
 
 from json import loads
@@ -23,13 +23,20 @@ class SourceView(viewsets.ModelViewSet):
 def webhook(request):
     data = loads(request.body.decode('ascii'))
     sources = data['queryResult']['parameters']['source']
-    start_date = int(data['queryResult']['parameters']
-                     ['date-period']['startDate'][:4])
-    end_date = int(data['queryResult']['parameters']
-                   ['date-period']['endDate'][:4])
+    start_date = data['queryResult']['parameters']['start_date']
+    end_date = data['queryResult']['parameters']['end_date']
 
-    problem = choices(Problem.objects.filter(
-        source__abbreviation__in=sources, from_year__range=[start_date, end_date]))[0]
+    if start_date == 'none':
+        end_date = 9999
+    elif end_date == 'none':
+        end_date = start_date
+
+    if sources == ['any']:
+        problem = choices(Problem.objects.filter(
+            from_year__range=[start_date, end_date]))[0]
+    else:
+        problem = choices(Problem.objects.filter(
+            source__abbreviation__in=sources, from_year__range=[start_date, end_date]))[0]
 
     return JsonResponse(
         {
@@ -39,7 +46,7 @@ def webhook(request):
                     'card': {
                         'title': problem.name,
                         'subtitle': f'{problem.source.abbreviation} {problem.from_year}',
-                        'imageUri': 'https://upload.wikimedia.org/wikipedia/commons/3/34/IOI_logo.png',
+                        'imageUri': 'https://media.istockphoto.com/photos/binary-code-picture-id122204403?k=6&m=122204403&s=612x612&w=0&h=3_AdADaBrOZFIeAYhBA-u0-C6ZSrpMyD1FEX3uMdkC0=',
                         'buttons': [
                             {
                                 'text': 'Open in your browser',
