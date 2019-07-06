@@ -26,9 +26,9 @@ def webhook(request):
     start_date = data['queryResult']['parameters']['start_date']
     end_date = data['queryResult']['parameters']['end_date']
 
-    if start_date == 'none':
+    if start_date == -1:
         end_date = 9999
-    elif end_date == 'none':
+    elif end_date == -1:
         end_date = start_date
 
     if sources == ['any']:
