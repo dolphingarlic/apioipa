@@ -23,8 +23,8 @@ class SourceView(viewsets.ModelViewSet):
 def webhook(request):
     data = loads(request.body.decode('ascii'))
     sources = data['queryResult']['parameters']['source']
-    start_date = data['queryResult']['parameters']['start_date']
-    end_date = data['queryResult']['parameters']['end_date']
+    start_date = int(data['queryResult']['parameters']['start_date'])
+    end_date = int(data['queryResult']['parameters']['end_date'])
 
     if start_date == -1:
         end_date = 9999
