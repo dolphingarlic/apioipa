@@ -56,5 +56,39 @@ def webhook(request):
                     }
                 }
             ],
+            'payload': {
+                'google': {
+                    'expectUserResponse': True,
+                    'richResponse': {
+                        'items': [
+                            {
+                                'simpleResponse': {
+                                    'textToSpeech': f'Task {problem.name} from the {problem.from_year} {problem.source.name}'
+                                }
+                            },
+                            {
+                                'basicCard': {
+                                    'title': problem.name,
+                                    'subtitle': f'{problem.source.abbreviation} {problem.from_year}',
+                                    'formattedText': f'Task {problem.name} from the {problem.from_year} {problem.source.name}',
+                                    'image': {
+                                        'url': 'https://media.istockphoto.com/photos/binary-code-picture-id122204403?k=6&m=122204403&s=612x612&w=0&h=3_AdADaBrOZFIeAYhBA-u0-C6ZSrpMyD1FEX3uMdkC0=',
+                                        'accessibilityText': '*Insert logo here*',
+                                    },
+                                    'buttons': [
+                                        {
+                                            'title': 'Open in your browser',
+                                            'openUrlAction': {
+                                                'url': problem.url
+                                            }
+                                        }
+                                    ],
+                                    'imageDisplayOptions': 'CROPPED'
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
         }
     )
