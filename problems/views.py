@@ -51,6 +51,7 @@ def webhook(request):
 
     return JsonResponse(
         {
+            'responseId': data['responseId'],
             'fulfillmentMessages': [
                 {
                     'card': {
@@ -100,5 +101,6 @@ def webhook(request):
                     }
                 }
             }
-        }
+        },
+        safe=False
     )
