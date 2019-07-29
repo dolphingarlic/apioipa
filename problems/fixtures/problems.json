@@ -1,5 +1,61 @@
 [
     {
+        "model": "problems.Source",
+        "pk": 1,
+        "fields": {
+            "abbreviation": "IOI",
+            "name": "International Olympiad in Informatics"
+        }
+    },
+    {
+        "model": "problems.Source",
+        "pk": 2,
+        "fields": {
+            "abbreviation": "APIO",
+            "name": "Asian Pacific Informatics Olympiad"
+        }
+    },
+    {
+        "model": "problems.Source",
+        "pk": 3,
+        "fields": {
+            "abbreviation": "BOI",
+            "name": "Baltic Olympiad in Informatics"
+        }
+    },
+    {
+        "model": "problems.Source",
+        "pk": 4,
+        "fields": {
+            "abbreviation": "JOI",
+            "name": "Japanese Olympiad in Informatics"
+        }
+    },
+    {
+        "model": "problems.Source",
+        "pk": 5,
+        "fields": {
+            "abbreviation": "POI",
+            "name": "Polish Olympiad in Informatics"
+        }
+    },
+    {
+        "model": "problems.Source",
+        "pk": 6,
+        "fields": {
+            "abbreviation": "CEOI",
+            "name": "Central European Olympiad in Informatics"
+        }
+    },
+    {
+        "model": "problems.Source",
+        "pk": 7,
+        "fields": {
+            "abbreviation": "SACO",
+            "name": "South African Programming Olympiad"
+        }
+    },
+    {
         "model": "problems.Problem",
         "pk": 1,
         "fields": {
@@ -6787,6 +6843,96 @@
             "from_year": 2012,
             "url": "https://saco-evaluator.org.za/cms",
             "name": "Subway equivalence"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 680,
+        "fields": {
+            "source": ["CEOI"],
+            "from_year": 2019,
+            "url": "https://codeforces.com/contest/1192/problem/A",
+            "name": "Building Skyscrapers"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 681,
+        "fields": {
+            "source": ["CEOI"],
+            "from_year": 2019,
+            "url": "hhttps://codeforces.com/contest/1192/problem/B",
+            "name": "Dynamic Diameter"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 682,
+        "fields": {
+            "source": ["CEOI"],
+            "from_year": 2019,
+            "url": "https://codeforces.com/contest/1192/problem/C",
+            "name": "Cubeword"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 683,
+        "fields": {
+            "source": ["CEOI"],
+            "from_year": 2019,
+            "url": "https://codeforces.com/contest/1193/problem/A",
+            "name": "Amusement Park"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 684,
+        "fields": {
+            "source": ["CEOI"],
+            "from_year": 2019,
+            "url": "https://codeforces.com/contest/1193/problem/B",
+            "name": "Magic Tree"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 685,
+        "fields": {
+            "source": ["CEOI"],
+            "from_year": 2019,
+            "url": "https://codeforces.com/contest/1194/problem/C",
+            "name": "Scissors and Tape"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 686,
+        "fields": {
+            "source": ["JOI"],
+            "from_year": 2019,
+            "url": "https://oj.uz/problem/view/JOI19_jumps",
+            "name": "Jumps"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 687,
+        "fields": {
+            "source": ["JOI"],
+            "from_year": 2019,
+            "url": "https://oj.uz/problem/view/JOI19_remittance",
+            "name": "Remittance"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 688,
+        "fields": {
+            "source": ["JOI"],
+            "from_year": 2019,
+            "url": "https://oj.uz/problem/view/JOI19_virus",
+            "name": "Virus"
         }
     }
 ]
