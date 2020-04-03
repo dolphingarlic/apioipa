@@ -5,7 +5,7 @@ from .models import Problem, Source
 class ProblemSerializer(serializers.ModelSerializer):
     class Meta:
         model = Problem
-        fields = ('name', 'source', 'url', 'from_year')
+        fields = ('name', 'source', 'url', 'from_year', 'image')
 
 
 class SourceSerializer(serializers.ModelSerializer):

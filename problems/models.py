@@ -21,6 +21,7 @@ class Problem(models.Model):
     source = models.ForeignKey(Source, on_delete=models.SET_NULL, null=True)
     url = models.URLField()
     from_year = models.IntegerField()
+    image = models.URLField(null=True)
 
     def __str__(self):
         return f'{self.source.abbreviation} {self.from_year} - {self.name}'
