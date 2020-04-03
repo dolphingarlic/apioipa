@@ -1,26 +1,35 @@
-from django.shortcuts import render
+from json import loads
+from random import choices
+
 from django.http import JsonResponse
-from rest_framework import viewsets
-import dialogflow_v2 as dialogflow
+from rest_framework import viewsets, permissions, filters
 
 from .serializers import ProblemSerializer, SourceSerializer
 from .models import Problem, Source
-
-from json import loads
-from random import choices
 
 
 class ProblemView(viewsets.ModelViewSet):
     serializer_class = ProblemSerializer
     queryset = Problem.objects.all()
+    filter_backends = [filters.SearchFilter]
+    search_fields = ['=name', '=source__abbreviation', '=from_year']
+    permission_classes = [permissions.IsAuthenticatedOrReadOnly]
 
 
 class SourceView(viewsets.ModelViewSet):
     serializer_class = SourceSerializer
     queryset = Source.objects.all()
+    filter_backends = [filters.SearchFilter]
+    search_fields = ['=abbreviation']
+    permission_classes = [permissions.IsAuthenticatedOrReadOnly]
 
 
-def webhook(request):
+def google_assistant_webhook(request):
+    """
+    Webhook for a Google Assistant action
+    Returns a JSON payload
+    """
+
     data = loads(request.body.decode('ascii'))
     sources = data['queryResult']['parameters']['source']
     start_date = int(data['queryResult']['parameters']['start_date'])

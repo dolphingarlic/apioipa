@@ -1821,7 +1821,7 @@
         "fields": {
             "source": ["APIO"],
             "from_year": 2019,
-            "image": "http://apio-olympiad.org/2019/logo-small.png",
+            "image": "https://apio2019.ru/upload/iblock/c1b/logo.png",
             "url": "https://oj.uz/problems/source/26",
             "name": "Device"
         }
@@ -1832,7 +1832,7 @@
         "fields": {
             "source": ["APIO"],
             "from_year": 2019,
-            "image": "http://apio-olympiad.org/2019/logo-small.png",
+            "image": "https://apio2019.ru/upload/iblock/c1b/logo.png",
             "url": "https://oj.uz/problems/source/26",
             "name": "Bridges"
         }
@@ -1843,7 +1843,7 @@
         "fields": {
             "source": ["APIO"],
             "from_year": 2019,
-            "image": "http://apio-olympiad.org/2019/logo-small.png",
+            "image": "https://apio2019.ru/upload/iblock/c1b/logo.png",
             "url": "https://oj.uz/problems/source/26",
             "name": "Lamps"
         }
@@ -7862,6 +7862,94 @@
             "from_year": 2019,
             "url": "https://oj.uz/problems/source/47",
             "name": "Treatment"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 712,
+        "fields": {
+            "source": ["SACO"],
+            "image": "http://olympiad.org.za/programming-olympiad/wp-content/uploads/sites/4/2017/01/co-logo-icon.png",
+            "from_year": 2019,
+            "url": "https://saco-evaluator.org.za/cms",
+            "name": "Reunite"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 713,
+        "fields": {
+            "source": ["SACO"],
+            "image": "http://olympiad.org.za/programming-olympiad/wp-content/uploads/sites/4/2017/01/co-logo-icon.png",
+            "from_year": 2019,
+            "url": "https://saco-evaluator.org.za/cms",
+            "name": "Planets"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 714,
+        "fields": {
+            "source": ["SACO"],
+            "image": "http://olympiad.org.za/programming-olympiad/wp-content/uploads/sites/4/2017/01/co-logo-icon.png",
+            "from_year": 2019,
+            "url": "https://saco-evaluator.org.za/cms",
+            "name": "Jump"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 715,
+        "fields": {
+            "source": ["SACO"],
+            "image": "http://olympiad.org.za/programming-olympiad/wp-content/uploads/sites/4/2017/01/co-logo-icon.png",
+            "from_year": 2019,
+            "url": "https://saco-evaluator.org.za/cms",
+            "name": "Elevators"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 716,
+        "fields": {
+            "source": ["SACO"],
+            "image": "http://olympiad.org.za/programming-olympiad/wp-content/uploads/sites/4/2017/01/co-logo-icon.png",
+            "from_year": 2019,
+            "url": "https://saco-evaluator.org.za/cms",
+            "name": "DNA"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 717,
+        "fields": {
+            "source": ["SACO"],
+            "image": "http://olympiad.org.za/programming-olympiad/wp-content/uploads/sites/4/2017/01/co-logo-icon.png",
+            "from_year": 2019,
+            "url": "https://saco-evaluator.org.za/cms",
+            "name": "Booking"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 718,
+        "fields": {
+            "source": ["SACO"],
+            "image": "http://olympiad.org.za/programming-olympiad/wp-content/uploads/sites/4/2017/01/co-logo-icon.png",
+            "from_year": 2019,
+            "url": "https://saco-evaluator.org.za/cms",
+            "name": "Bit"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 719,
+        "fields": {
+            "source": ["SACO"],
+            "image": "http://olympiad.org.za/programming-olympiad/wp-content/uploads/sites/4/2017/01/co-logo-icon.png",
+            "from_year": 2019,
+            "url": "https://saco-evaluator.org.za/cms",
+            "name": "Minecraft"
         }
     }
 ]
