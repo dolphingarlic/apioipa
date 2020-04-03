@@ -2316,6 +2316,7 @@
         "fields": {
             "source": ["BOI"],
             "from_year": 2017,
+            "image": "https://i.imgur.com/Hyy1yWz.png",
             "url": "https://cses.fi/boi/list/",
             "name": "Political"
         }
@@ -2326,6 +2327,7 @@
         "fields": {
             "source": ["BOI"],
             "from_year": 2017,
+            "image": "https://i.imgur.com/Hyy1yWz.png",
             "url": "https://cses.fi/boi/list/",
             "name": "Toll"
         }
@@ -2336,6 +2338,7 @@
         "fields": {
             "source": ["BOI"],
             "from_year": 2017,
+            "image": "https://i.imgur.com/Hyy1yWz.png",
             "url": "https://cses.fi/boi/list/",
             "name": "Railway"
         }
@@ -2346,6 +2349,7 @@
         "fields": {
             "source": ["BOI"],
             "from_year": 2017,
+            "image": "https://i.imgur.com/Hyy1yWz.png",
             "url": "https://cses.fi/boi/list/",
             "name": "Friends"
         }
@@ -2356,6 +2360,7 @@
         "fields": {
             "source": ["BOI"],
             "from_year": 2017,
+            "image": "https://i.imgur.com/Hyy1yWz.png",
             "url": "https://cses.fi/boi/list/",
             "name": "Plus Minus"
         }
@@ -2366,6 +2371,7 @@
         "fields": {
             "source": ["BOI"],
             "from_year": 2017,
+            "image": "https://i.imgur.com/Hyy1yWz.png",
             "url": "https://cses.fi/boi/list/",
             "name": "Cat"
         }
@@ -3124,6 +3130,7 @@
         "fields": {
             "source": ["BOI"],
             "from_year": 2005,
+            "image": "https://i.imgur.com/4n7RpVl.png",
             "url": "https://cses.fi/boi/list/",
             "name": "Camp"
         }
@@ -3134,6 +3141,7 @@
         "fields": {
             "source": ["BOI"],
             "from_year": 2005,
+            "image": "https://i.imgur.com/4n7RpVl.png",
             "url": "https://cses.fi/boi/list/",
             "name": "Magic"
         }
@@ -3144,6 +3152,7 @@
         "fields": {
             "source": ["BOI"],
             "from_year": 2005,
+            "image": "https://i.imgur.com/4n7RpVl.png",
             "url": "https://cses.fi/boi/list/",
             "name": "Maze"
         }
@@ -3154,6 +3163,7 @@
         "fields": {
             "source": ["BOI"],
             "from_year": 2005,
+            "image": "https://i.imgur.com/4n7RpVl.png",
             "url": "https://cses.fi/boi/list/",
             "name": "Ancient"
         }
@@ -3164,6 +3174,7 @@
         "fields": {
             "source": ["BOI"],
             "from_year": 2005,
+            "image": "https://i.imgur.com/4n7RpVl.png",
             "url": "https://cses.fi/boi/list/",
             "name": "Bus Trip"
         }
@@ -3174,6 +3185,7 @@
         "fields": {
             "source": ["BOI"],
             "from_year": 2005,
+            "image": "https://i.imgur.com/4n7RpVl.png",
             "url": "https://cses.fi/boi/list/",
             "name": "Polygon"
         }
