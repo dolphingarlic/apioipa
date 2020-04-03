@@ -1,1 +1,1 @@
-web: gunicorn cpbot.wsgi --log-file -
+web: gunicorn apioipa.wsgi --log-file -

@@ -1,3 +1,3 @@
-# CP Bot
+# APIOIPA
 
-A Dialogflow service that gives the user a random OI problem
+API for Olympiad Informatics Problems Assorted
