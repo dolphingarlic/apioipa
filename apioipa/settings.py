@@ -16,7 +16,7 @@ SECRET_KEY = '*frtskr0ck%@=_cjd=w-4cn@(4pubd4&^gdz1e=t2%mp#6e2td'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'cp-bot-webhook.herokuapp.com',
+    'apioipa.herokuapp.com',
     'localhost',
     '127.0.0.1',
 ]

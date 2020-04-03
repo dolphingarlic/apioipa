@@ -1,9 +1,0 @@
-Django==3.0.5
-dialogflow==0.6.0
-django-heroku
-gunicorn==19.9.0
-django-cors-headers==3.2.1
-djangorestframework==3.11.0
-psycopg2==2.7.3.2
-pytz==2017.3
-whitenoise==5.0.1
