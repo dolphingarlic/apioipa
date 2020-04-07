@@ -7,10 +7,12 @@ from django.db import models
 class SourceManager(models.Manager):
     """
     Manager for a problem source
-    Allows lookups by abbreviation
     """
 
     def get_by_natural_key(self, abbreviation):
+        """
+        Allows lookups by abbreviation
+        """
         return self.get(abbreviation=abbreviation)
 
 
@@ -45,4 +47,7 @@ class Problem(models.Model):
         return f'{self.source.abbreviation} {self.from_year} - {self.name}'
 
     class Meta:
+        """
+        Defines the ordering of problems
+        """
         ordering = ('source', 'from_year',)

@@ -12,4 +12,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(router.urls)),
     path('webhook/', csrf_exempt(views.google_assistant_webhook), name='webhook'),
+    path('random-problem/', csrf_exempt(views.random_problem), name='random-problem')
 ]

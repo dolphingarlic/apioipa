@@ -1,8 +1,10 @@
 from json import loads
-from random import choices
+from random import choice
 
 from django.http import JsonResponse
 from rest_framework import viewsets, permissions, filters
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
 
 from .serializers import ProblemSerializer, SourceSerializer
 from .models import Problem, Source
@@ -24,6 +26,13 @@ class SourceView(viewsets.ModelViewSet):
     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
 
 
+@api_view(['GET'])
+def random_problem(request):
+    problem = choice(Problem.objects.all())
+    serializer = ProblemSerializer(problem)
+    return Response(serializer.data)
+
+
 def google_assistant_webhook(request):
     """
     Webhook for a Google Assistant action
@@ -41,11 +50,11 @@ def google_assistant_webhook(request):
         end_date = start_date
 
     if sources == ['any']:
-        problem = choices(Problem.objects.filter(
-            from_year__range=[start_date, end_date]))[0]
+        problem = choice(Problem.objects.filter(
+            from_year__range=[start_date, end_date]))
     else:
-        problem = choices(Problem.objects.filter(
-            source__abbreviation__in=sources, from_year__range=[start_date, end_date]))[0]
+        problem = choice(Problem.objects.filter(
+            source__abbreviation__in=sources, from_year__range=[start_date, end_date]))
 
     return JsonResponse(
         {
