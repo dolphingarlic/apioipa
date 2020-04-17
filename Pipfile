@@ -11,10 +11,11 @@ django-heroku = "*"
 gunicorn = "*"
 django-cors-headers = "*"
 djangorestframework = "*"
-psycopg2 = "*"
 pytz = "*"
 whitenoise = "*"
 Django = "*"
+django-filter = "*"
+psycopg2 = "*"
 
 [requires]
 python_version = "3.7"

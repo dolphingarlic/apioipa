@@ -5,24 +5,49 @@ from django.http import JsonResponse
 from rest_framework import viewsets, permissions, filters
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
+from django_filters import rest_framework as filters
 
 from .serializers import ProblemSerializer, SourceSerializer
 from .models import Problem, Source
 
 
+class ProblemFilter(filters.FilterSet):
+    '''
+    Filter class for a problem
+    Filters by name, source, and year
+    '''
+
+    min_from_year = filters.NumberFilter(field_name='from_year', lookup_expr='gte')
+    max_from_year = filters.NumberFilter(field_name='from_year', lookup_expr='lte')
+
+    class Meta:
+        model = Problem
+        fields = ['name', 'source__abbreviation', 'source__name', 'from_year', 'min_from_year', 'max_from_year']
+
+
 class ProblemView(viewsets.ModelViewSet):
     serializer_class = ProblemSerializer
     queryset = Problem.objects.all()
-    filter_backends = [filters.SearchFilter]
-    search_fields = ['=name', '=source__abbreviation', '=from_year']
+    filter_backends = (filters.DjangoFilterBackend,)
+    filterset_class = ProblemFilter
     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
 
+
+class SourceFilter(filters.FilterSet):
+    '''
+    Filter class for a source
+    Filters by abbreviation and name
+    '''
+
+    class Meta:
+        model = Source
+        fields = ['name', 'abbreviation']
 
 class SourceView(viewsets.ModelViewSet):
     serializer_class = SourceSerializer
     queryset = Source.objects.all()
-    filter_backends = [filters.SearchFilter]
-    search_fields = ['=abbreviation']
+    filter_backends = (filters.DjangoFilterBackend,)
+    filterset_class = SourceFilter
     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
 
 
