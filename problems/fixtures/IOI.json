@@ -1,0 +1,1168 @@
+[
+    {
+        "model": "problems.Problem",
+        "pk": 689,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2019,
+            "image": "http://stats.ioinformatics.org/img/iois/2019.png",
+            "url": "https://oj.uz/problems/source/420",
+            "name": "Shoes"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 690,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2019,
+            "image": "http://stats.ioinformatics.org/img/iois/2019.png",
+            "url": "https://oj.uz/problems/source/420",
+            "name": "Rectangles"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 691,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2019,
+            "image": "http://stats.ioinformatics.org/img/iois/2019.png",
+            "url": "https://oj.uz/problems/source/420",
+            "name": "Split"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 692,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2019,
+            "image": "http://stats.ioinformatics.org/img/iois/2019.png",
+            "url": "https://oj.uz/problems/source/420",
+            "name": "Line"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 693,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2019,
+            "image": "http://stats.ioinformatics.org/img/iois/2019.png",
+            "url": "https://oj.uz/problems/source/420",
+            "name": "Vision"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 694,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2019,
+            "image": "http://stats.ioinformatics.org/img/iois/2019.png",
+            "url": "https://oj.uz/problems/source/420",
+            "name": "Walking"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 61,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2018,
+            "image": "http://stats.ioinformatics.org/img/iois/2018.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Combo"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 62,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2018,
+            "image": "http://stats.ioinformatics.org/img/iois/2018.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Seats"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 63,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2018,
+            "image": "http://stats.ioinformatics.org/img/iois/2018.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Werewolf"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 64,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2018,
+            "image": "http://stats.ioinformatics.org/img/iois/2018.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Dolls"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 65,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2018,
+            "image": "http://stats.ioinformatics.org/img/iois/2018.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Highway"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 66,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2018,
+            "image": "http://stats.ioinformatics.org/img/iois/2018.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Meetings"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 67,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2017,
+            "image": "http://stats.ioinformatics.org/img/iois/2017.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Nowruz"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 68,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2017,
+            "image": "http://stats.ioinformatics.org/img/iois/2017.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Wiring"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 69,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2017,
+            "image": "http://stats.ioinformatics.org/img/iois/2017.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Train"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 70,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2017,
+            "image": "http://stats.ioinformatics.org/img/iois/2017.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Prize"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 71,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2017,
+            "image": "http://stats.ioinformatics.org/img/iois/2017.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Simurgh"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 72,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2017,
+            "image": "http://stats.ioinformatics.org/img/iois/2017.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Books"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 73,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2016,
+            "image": "http://stats.ioinformatics.org/img/iois/2016.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Molecules"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 74,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2016,
+            "image": "http://stats.ioinformatics.org/img/iois/2016.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Railroad"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 75,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2016,
+            "image": "http://stats.ioinformatics.org/img/iois/2016.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Shortcut"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 76,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2016,
+            "image": "http://stats.ioinformatics.org/img/iois/2016.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Paint"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 77,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2016,
+            "image": "http://stats.ioinformatics.org/img/iois/2016.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Messy"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 78,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2016,
+            "image": "http://stats.ioinformatics.org/img/iois/2016.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Aliens"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 79,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2015,
+            "image": "http://stats.ioinformatics.org/img/iois/2015.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Boxes"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 80,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2015,
+            "image": "http://stats.ioinformatics.org/img/iois/2015.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Scales"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 81,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2015,
+            "image": "http://stats.ioinformatics.org/img/iois/2015.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Teams"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 82,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2015,
+            "image": "http://stats.ioinformatics.org/img/iois/2015.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Horses"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 83,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2015,
+            "image": "http://stats.ioinformatics.org/img/iois/2015.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Sorting"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 84,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2015,
+            "image": "http://stats.ioinformatics.org/img/iois/2015.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Towns"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 85,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2014,
+            "image": "http://stats.ioinformatics.org/img/iois/2014.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Rail"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 86,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2014,
+            "image": "http://stats.ioinformatics.org/img/iois/2014.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Wall"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 87,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2014,
+            "image": "http://stats.ioinformatics.org/img/iois/2014.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Game"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 88,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2014,
+            "image": "http://stats.ioinformatics.org/img/iois/2014.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Gondola"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 89,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2014,
+            "image": "http://stats.ioinformatics.org/img/iois/2014.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Friend"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 90,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2014,
+            "image": "http://stats.ioinformatics.org/img/iois/2014.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Holiday"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 91,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2013,
+            "image": "http://stats.ioinformatics.org/img/iois/2013.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Dreaming"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 92,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2013,
+            "image": "http://stats.ioinformatics.org/img/iois/2013.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Art Class"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 93,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2013,
+            "image": "http://stats.ioinformatics.org/img/iois/2013.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Wombats"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 94,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2013,
+            "image": "http://stats.ioinformatics.org/img/iois/2013.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Cave"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 95,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2013,
+            "image": "http://stats.ioinformatics.org/img/iois/2013.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Robots"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 96,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2013,
+            "image": "http://stats.ioinformatics.org/img/iois/2013.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Game"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 97,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2012,
+            "image": "http://stats.ioinformatics.org/img/iois/2012.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Odometer"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 98,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2012,
+            "image": "http://stats.ioinformatics.org/img/iois/2012.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Rings"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 99,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2012,
+            "image": "http://stats.ioinformatics.org/img/iois/2012.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Scrivener"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 100,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2012,
+            "image": "http://stats.ioinformatics.org/img/iois/2012.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "City"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 101,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2012,
+            "image": "http://stats.ioinformatics.org/img/iois/2012.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Supper"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 102,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2012,
+            "image": "http://stats.ioinformatics.org/img/iois/2012.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Tournament"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 103,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2011,
+            "image": "http://stats.ioinformatics.org/img/iois/2011.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Garden"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 104,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2011,
+            "image": "http://stats.ioinformatics.org/img/iois/2011.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Race"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 105,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2011,
+            "image": "http://stats.ioinformatics.org/img/iois/2011.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Ricehub"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 106,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2011,
+            "image": "http://stats.ioinformatics.org/img/iois/2011.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Crocodile"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 107,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2011,
+            "image": "http://stats.ioinformatics.org/img/iois/2011.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Elephants"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 108,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2011,
+            "image": "http://stats.ioinformatics.org/img/iois/2011.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Parrots"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 109,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2010,
+            "image": "http://stats.ioinformatics.org/img/iois/2010.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Quality"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 110,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2010,
+            "image": "http://stats.ioinformatics.org/img/iois/2010.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Languages"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 111,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2010,
+            "image": "http://stats.ioinformatics.org/img/iois/2010.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Hottercolder"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 112,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2010,
+            "image": "http://stats.ioinformatics.org/img/iois/2010.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Cluedo"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 113,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2010,
+            "image": "http://stats.ioinformatics.org/img/iois/2010.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Saveit"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 114,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2010,
+            "image": "http://stats.ioinformatics.org/img/iois/2010.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Maze"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 115,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2010,
+            "image": "http://stats.ioinformatics.org/img/iois/2010.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Traffic"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 116,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2010,
+            "image": "http://stats.ioinformatics.org/img/iois/2010.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Memory"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 117,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2009,
+            "image": "http://stats.ioinformatics.org/img/iois/2009.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Archery"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 118,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2009,
+            "image": "http://stats.ioinformatics.org/img/iois/2009.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Hiring"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 119,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2009,
+            "image": "http://stats.ioinformatics.org/img/iois/2009.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Poi"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 120,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2009,
+            "image": "http://stats.ioinformatics.org/img/iois/2009.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Raisins"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 121,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2009,
+            "image": "http://stats.ioinformatics.org/img/iois/2009.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Garage"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 122,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2009,
+            "image": "http://stats.ioinformatics.org/img/iois/2009.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Mecho"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 123,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2009,
+            "image": "http://stats.ioinformatics.org/img/iois/2009.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Regions"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 124,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2009,
+            "image": "http://stats.ioinformatics.org/img/iois/2009.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Salesman"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 125,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2008,
+            "image": "http://stats.ioinformatics.org/img/iois/2008.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Printer"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 126,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2008,
+            "image": "http://stats.ioinformatics.org/img/iois/2008.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Fish"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 127,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2008,
+            "image": "http://stats.ioinformatics.org/img/iois/2008.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Islands"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 128,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2008,
+            "image": "http://stats.ioinformatics.org/img/iois/2008.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Teleporters"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 129,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2008,
+            "image": "http://stats.ioinformatics.org/img/iois/2008.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Garden"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 130,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2008,
+            "image": "http://stats.ioinformatics.org/img/iois/2008.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Pyramid"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 131,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2007,
+            "image": "http://stats.ioinformatics.org/img/iois/2007.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Aliens"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 132,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2007,
+            "image": "http://stats.ioinformatics.org/img/iois/2007.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Flood"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 133,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2007,
+            "image": "http://stats.ioinformatics.org/img/iois/2007.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Sails"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 134,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2007,
+            "image": "http://stats.ioinformatics.org/img/iois/2007.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Miners"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 135,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2007,
+            "image": "http://stats.ioinformatics.org/img/iois/2007.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Pairs"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 136,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2007,
+            "image": "http://stats.ioinformatics.org/img/iois/2007.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Training"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 137,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2006,
+            "image": "http://stats.ioinformatics.org/img/iois/2006.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Writing"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 138,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2006,
+            "image": "http://stats.ioinformatics.org/img/iois/2006.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Pyramid"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 139,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2006,
+            "image": "http://stats.ioinformatics.org/img/iois/2006.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Forbidden"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 140,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2006,
+            "image": "http://stats.ioinformatics.org/img/iois/2006.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Mexico"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 141,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2006,
+            "image": "http://stats.ioinformatics.org/img/iois/2006.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Points"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 142,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2006,
+            "image": "http://stats.ioinformatics.org/img/iois/2006.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Black Box"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 143,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2005,
+            "image": "http://stats.ioinformatics.org/img/iois/2005.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Garden"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 144,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2005,
+            "image": "http://stats.ioinformatics.org/img/iois/2005.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Mean"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 145,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2005,
+            "image": "http://stats.ioinformatics.org/img/iois/2005.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Mountains"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 146,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2005,
+            "image": "http://stats.ioinformatics.org/img/iois/2005.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Birthday"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 147,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2005,
+            "image": "http://stats.ioinformatics.org/img/iois/2005.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Game"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 148,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2005,
+            "image": "http://stats.ioinformatics.org/img/iois/2005.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Rivers"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 149,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2004,
+            "image": "http://stats.ioinformatics.org/img/iois/2004.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Artemis"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 150,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2004,
+            "image": "http://stats.ioinformatics.org/img/iois/2004.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Hermes"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 151,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2004,
+            "image": "http://stats.ioinformatics.org/img/iois/2004.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Polygon"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 152,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2004,
+            "image": "http://stats.ioinformatics.org/img/iois/2004.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Empodia"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 153,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2004,
+            "image": "http://stats.ioinformatics.org/img/iois/2004.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Farmer"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 154,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2004,
+            "image": "http://stats.ioinformatics.org/img/iois/2004.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Phidias"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 155,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2003,
+            "image": "http://stats.ioinformatics.org/img/iois/2003.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Maintain"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 156,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2003,
+            "image": "http://stats.ioinformatics.org/img/iois/2003.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Code"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 157,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2003,
+            "image": "http://stats.ioinformatics.org/img/iois/2003.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Reverse"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 158,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2003,
+            "image": "http://stats.ioinformatics.org/img/iois/2003.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Guess"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 159,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2003,
+            "image": "http://stats.ioinformatics.org/img/iois/2003.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Robots"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 160,
+        "fields": {
+            "source": ["IOI"],
+            "from_year": 2003,
+            "image": "http://stats.ioinformatics.org/img/iois/2003.png",
+            "url": "https://contest.yandex.ru/ioi/",
+            "name": "Boundary"
+        }
+    }
+]

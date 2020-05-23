@@ -1,0 +1,365 @@
+[
+    {
+        "model": "problems.Problem",
+        "pk": 161,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2019,
+            "image": "https://apio2019.ru/upload/iblock/c1b/logo.png",
+            "url": "https://oj.uz/problems/source/26",
+            "name": "Device"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 162,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2019,
+            "image": "https://apio2019.ru/upload/iblock/c1b/logo.png",
+            "url": "https://oj.uz/problems/source/26",
+            "name": "Bridges"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 163,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2019,
+            "image": "https://apio2019.ru/upload/iblock/c1b/logo.png",
+            "url": "https://oj.uz/problems/source/26",
+            "name": "Lamps"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 164,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2018,
+            "image": "http://apio-olympiad.org/2018/logo-small.png",
+            "url": "https://oj.uz/problems/source/26",
+            "name": "New Home"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 165,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2018,
+            "image": "http://apio-olympiad.org/2018/logo-small.png",
+            "url": "https://oj.uz/problems/source/26",
+            "name": "Circle"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 166,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2018,
+            "image": "http://apio-olympiad.org/2018/logo-small.png",
+            "url": "https://oj.uz/problems/source/26",
+            "name": "Duathlon"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 167,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2017,
+            "image": "http://apio-olympiad.org/2017/logo-small.png",
+            "url": "https://oj.uz/problems/source/26",
+            "name": "Rainbow"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 168,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2017,
+            "image": "http://apio-olympiad.org/2017/logo-small.png",
+            "url": "https://oj.uz/problems/source/26",
+            "name": "Merchant"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 169,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2017,
+            "image": "http://apio-olympiad.org/2017/logo-small.png",
+            "url": "https://oj.uz/problems/source/26",
+            "name": "Koala"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 170,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2016,
+            "image": "http://apio-olympiad.org/2016/logo-small.png",
+            "url": "https://oj.uz/problems/source/26",
+            "name": "Boat"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 171,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2016,
+            "image": "http://apio-olympiad.org/2016/logo-small.png",
+            "url": "https://oj.uz/problems/source/26",
+            "name": "Fireworks"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 172,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2016,
+            "image": "http://apio-olympiad.org/2016/logo-small.png",
+            "url": "https://oj.uz/problems/source/26",
+            "name": "Gap"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 173,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2015,
+            "image": "http://apio-olympiad.org/2015/logo-small.png",
+            "url": "https://oj.uz/problems/source/26",
+            "name": "Sculpture"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 174,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2015,
+            "image": "http://apio-olympiad.org/2015/logo-small.png",
+            "url": "https://oj.uz/problems/source/26",
+            "name": "Skyscraper"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 175,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2015,
+            "image": "http://apio-olympiad.org/2015/logo-small.png",
+            "url": "https://oj.uz/problems/source/26",
+            "name": "Bridge"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 176,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2014,
+            "image": "http://apio-olympiad.org/2014/logo-small.png",
+            "url": "https://oj.uz/problems/source/26",
+            "name": "Palindrome"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 177,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2014,
+            "image": "http://apio-olympiad.org/2014/logo-small.png",
+            "url": "https://oj.uz/problems/source/26",
+            "name": "Sequence"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 178,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2014,
+            "image": "http://apio-olympiad.org/2014/logo-small.png",
+            "url": "https://oj.uz/problems/source/26",
+            "name": "Beads"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 179,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2013,
+            "image": "http://apio-olympiad.org/2013/logo-small.png",
+            "url": "https://www.acmicpc.net/category/48",
+            "name": "Robots"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 180,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2013,
+            "image": "http://apio-olympiad.org/2013/logo-small.png",
+            "url": "https://www.acmicpc.net/category/48",
+            "name": "Toll"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 181,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2013,
+            "image": "http://apio-olympiad.org/2013/logo-small.png",
+            "url": "https://www.acmicpc.net/category/48",
+            "name": "Tasksauthor"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 182,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2012,
+            "image": "http://apio-olympiad.org/2012/logo-small.png",
+            "url": "https://www.acmicpc.net/category/48",
+            "name": "Dispatching"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 183,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2012,
+            "image": "http://apio-olympiad.org/2012/logo-small.png",
+            "url": "https://www.acmicpc.net/category/48",
+            "name": "Guard"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 184,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2012,
+            "image": "http://apio-olympiad.org/2012/logo-small.png",
+            "url": "https://www.acmicpc.net/category/48",
+            "name": "Kunai"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 185,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2011,
+            "image": "http://apio-olympiad.org/2011/logo-small.png",
+            "url": "https://www.acmicpc.net/category/48",
+            "name": "Color"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 186,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2011,
+            "image": "http://apio-olympiad.org/2011/logo-small.png",
+            "url": "https://www.acmicpc.net/category/48",
+            "name": "Path"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 187,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2011,
+            "image": "http://apio-olympiad.org/2011/logo-small.png",
+            "url": "https://www.acmicpc.net/category/48",
+            "name": "Guess"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 188,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2010,
+            "image": "http://apio-olympiad.org/2010/logo-small.png",
+            "url": "https://www.acmicpc.net/category/48",
+            "name": "Commando"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 189,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2010,
+            "image": "http://apio-olympiad.org/2010/logo-small.png",
+            "url": "https://www.acmicpc.net/category/48",
+            "name": "Patrol"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 190,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2010,
+            "image": "http://apio-olympiad.org/2010/logo-small.png",
+            "url": "https://www.acmicpc.net/category/48",
+            "name": "Signaling"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 191,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2009,
+            "image": "http://apio-olympiad.org/2009/logo-small.png",
+            "url": "https://www.acmicpc.net/category/48",
+            "name": "Oil"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 192,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2009,
+            "image": "http://apio-olympiad.org/2009/logo-small.png",
+            "url": "https://www.acmicpc.net/category/48",
+            "name": "Convention"
+        }
+    },
+    {
+        "model": "problems.Problem",
+        "pk": 193,
+        "fields": {
+            "source": ["APIO"],
+            "from_year": 2009,
+            "image": "http://apio-olympiad.org/2009/logo-small.png",
+            "url": "https://www.acmicpc.net/category/48",
+            "name": "ATM"
+        }
+    }
+]

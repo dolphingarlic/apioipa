@@ -1,0 +1,58 @@
+[
+    {
+        "model": "problems.Source",
+        "pk": 1,
+        "fields": {
+            "abbreviation": "IOI",
+            "name": "International Olympiad in Informatics"
+        }
+    },
+    {
+        "model": "problems.Source",
+        "pk": 2,
+        "fields": {
+            "abbreviation": "APIO",
+            "name": "Asian Pacific Informatics Olympiad"
+        }
+    },
+    {
+        "model": "problems.Source",
+        "pk": 3,
+        "fields": {
+            "abbreviation": "BOI",
+            "name": "Baltic Olympiad in Informatics"
+        }
+    },
+    {
+        "model": "problems.Source",
+        "pk": 4,
+        "fields": {
+            "abbreviation": "JOI",
+            "name": "Japanese Olympiad in Informatics"
+        }
+    },
+    {
+        "model": "problems.Source",
+        "pk": 5,
+        "fields": {
+            "abbreviation": "POI",
+            "name": "Polish Olympiad in Informatics"
+        }
+    },
+    {
+        "model": "problems.Source",
+        "pk": 6,
+        "fields": {
+            "abbreviation": "CEOI",
+            "name": "Central European Olympiad in Informatics"
+        }
+    },
+    {
+        "model": "problems.Source",
+        "pk": 7,
+        "fields": {
+            "abbreviation": "SACO",
+            "name": "South African Programming Olympiad"
+        }
+    }
+]
